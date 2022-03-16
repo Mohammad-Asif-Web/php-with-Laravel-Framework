@@ -1,0 +1,207 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	list-style: none;
+}
+
+
+h2{
+	font-size: 40px;
+	text-transform: uppercase;
+}
+.bg-1{
+	background-color: #23232e;
+	text-align: center;
+	padding: 20px 20%;
+	color: white;
+}
+.bg-2{
+	background-image: 
+	url("images/back.png");
+	text-align: center;
+	padding: 20px 20%;
+	color: #464b4f;
+}
+button{
+	font-size: 20px;
+	margin:  50px 0;
+	padding:  10px 30px;
+	border-radius: 5px;
+	background-color: #6887D2;
+	color: #fff;
+	cursor: pointer;
+	outline: none;
+	border:  none;
+}
+
+
+
+/*this is header section*/
+
+.header img{
+	width: 11%;
+	padding-top: 20px;
+	padding-bottom: 50px;
+}
+.header .txt{
+	font-size: 12px;
+}
+.header .circle{
+	border: 1px solid white;
+	height: 20px;
+	width: 20px;
+	border-radius: 50%;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+
+/*this is what i do section*/
+.what-i-do,
+.what-i-do h2{
+	margin-top: 40px;
+}
+.what-i-do .do-content{
+	margin: 40px 0;
+	display: flex;
+	justify-content: space-between;
+}
+.what-i-do .col{
+	width: 31.33%;
+	margin: 1%;
+	text-align: left;
+}
+.what-i-do .col h4{
+	text-transform: uppercase;
+}
+
+/*this is My work section*/
+.work h2{
+	margin: 20px 0;
+}
+.work .work-nav{
+	padding: 20px;
+	text-align: center;
+	margin: 0 auto;
+}
+.work-nav ul{
+	display: flex;
+	justify-content: center;
+}
+.work-nav ul li{
+	margin: 0 10px;
+}
+.work .work-content{
+	width: 100%;
+	min-height: 300px;
+	display: flex;
+	justify-content: space-between;
+	margin: 20px 0;
+}
+.work-content .contents{
+	width: 31.33%;
+}
+.contents .box{
+	width: 100%;
+	height: 80%;
+	background: #6887D2;
+	margin-bottom: 20px;
+}
+.contents small{
+	color: gray;
+	margin: 10px 0 20px 0;
+	display: block;
+}
+/*.work button{
+	font-size: 20px;
+	margin:  50px 0;
+	padding:  10px 30px;
+	border-radius: 5px;
+	background-color: #6887D2;
+	color: #fff;
+	cursor: pointer;
+	outline: none;
+	border:  none;
+}*/
+
+/*this is Photography section*/
+.photo h2,
+.photo p{
+	margin: 20px 0;
+}
+.photo .photo-content{
+	width: 100%;
+	height: 200px;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 40px;
+}
+.photo-content .contents{
+	width: 31.33%;
+	height: 100%;
+	background: #6887D2;
+}
+
+/*.photo button{
+	font-size: 20px;
+	margin:  50px 0;
+	padding:  10px 30px;
+	border-radius: 5px;
+	background-color: #6887D2;
+	color: #fff;
+	cursor: pointer;
+	outline: none;
+	border:  none;
+}*/
+
+/*this is Subscribe section*/
+.news i{
+	margin: 50px 0 30px 0;
+	font-size: 40px;
+	font-weight: bold;
+}
+.news p{
+	color: gray;
+	font-size: 20px;
+}
+.news form{
+	width: 100%;
+	height: 50px;
+	margin: 30px 0 50px 0;
+	display: flex;
+	gap: 5px;
+}
+form input{
+	width: 80%;
+	height: 100%;
+	padding: 20px;
+	outline: none;
+}
+form button{
+	width: 20%;
+	height: 100%;
+	margin: 0;
+}
+
+/*this is footer section*/
+footer .icon{
+	margin: 50px 0;
+	display: flex;
+	justify-content: center;
+	gap:  30px;
+}
+.icon i{
+	font-size: 30px;
+	color: gray;
+}
+footer p,
+footer small{
+	font-size: 16px;
+	color: gray;
+	font-weight: 200;
+}
+
+
+
+
+
