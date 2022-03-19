@@ -12,6 +12,7 @@ html{
 body{
 	scroll-behavior: smooth;
 }
+/*color theme swatch in hex*/
 :root{
 	--white-primary: #ffffff;
 	--white3: #f3f3f3;
@@ -23,9 +24,29 @@ body{
 }
 
 /*===fixed class===*/
-.pad{
+h2{
+	font-size: 3rem;
+	font-weight: 200;
+	color: #000;
+	text-transform: uppercase;
+	text-align: center;
+}
+p{
+	font-size: 2rem;
+	font-weight: 200;
+	color: var(--black);
+}
+img{
+	width: 100%;
+	height: 100%;
+}
+.pad-1{
 	padding-left: 15%;
 	padding-right: 15%;
+}
+.pad-2{
+	padding-top: 8rem;
+	padding-bottom: 8rem;
 }
 
 .join{
@@ -36,16 +57,45 @@ body{
 	background: var(--red-secondary);
 	color: var(--white-primary);
 	border: none;
-	padding: 1rem 3rem;
-	border-radius: 5px;
+	padding: 1rem 2rem;
+	border-radius: .5rem;
 	cursor: pointer;
 	text-transform: capitalize;
 }
+.line{
+	width: 2rem;
+	height: 2rem;
+	background-color: var(--red-secondary);
+	border-radius: 50%;
+	margin: 0 auto;
+	position: relative;
+}
+.line::after{
+	content: "";
+	width: 9rem;
+	height: .2rem;
+	background: var(--red-secondary);
+	position: absolute;
+	top: 50%;
+	left: 0;
+	transform: translateY(-50%);
+}
+.line::before{
+	content: "";
+	width: 9rem;
+	height: .2rem;
+	background: var(--red-secondary);
+	position: absolute;
+	top: 50%;
+	right: 0;
+	transform: translateY(-50%);
+}
+
 
 /*===header===*/
 header{
 	width: 100%;
-	min-heigh: 700px;
+	min-heigh: 70rem;
 	background: url("../../img/bg.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -56,7 +106,7 @@ header nav{
 	display: flex;
 	justify-content: space-between;
 	background: rgb(0, 0, 0, 0.4);
-	padding: 10px 0;
+	padding: 1rem 0;
 }
 nav ul{
 	display: flex;
@@ -68,7 +118,7 @@ nav ul li{
 	padding: 0 1.5rem;
 }
 nav ul li a{
-	font-size: 2rem;
+	font-size: 1.5rem;
 	text-transform: uppercase;
 	color: var(--white-primary);
 	font-weight: 200;
@@ -79,21 +129,154 @@ header .banner{
 	padding-bottom: 18rem;
 }
 .banner h1{
-	font-size: 60px;
+	font-size: 6rem;
 	color: var(--white-primary);
 	font-weight: 200;
-	margin-bottom: 60px;
+	margin-bottom: 6rem;
 }
 h1 span{
 	color: var(--red-primary);
 }
 .banner p{
-	font-size: 20px;
-	font-weight: 200;
 	color: var(--white-primary);
 	text-align: justify;
 }
 .banner button{
 	background: var(--red-primary);
-	margin-top: 80px;
+	margin-top: 8rem;
 }
+
+/*===about us===*/
+.about{
+	width: 100%;
+	height: auto;
+	background: var(--white6);
+}
+.about .profile{
+	margin-top: 5rem;
+	display: flex;
+	gap: 2rem;
+	justify-content: flex-start;
+	width: 100%;
+}
+.profile .profile-img{
+	height: 45rem;
+	flex-basis: 30%;
+	position: relative;
+}
+.profile .profile-icon{
+	width: 100%;
+	height: 90px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background: rgb(0, 0, 0, 0.5);
+	text-align: center;
+}
+.profile-icon small{
+	display: block;
+	font-size: 2rem;
+	color: var(--white-primary);
+	margin: 1rem 0;
+}
+.profile-icon svg{
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    background: var(--black);
+    color: var(--white-primary);
+    padding: 0.8rem;
+    margin: 0 .5rem;
+    cursor: pointer;
+}
+.profile-icon svg:hover{
+	background: var(--white-primary);
+	color: var(--black);
+}
+
+.profile-text{
+	flex-basis: 70%;
+}
+.profile-text h3{
+	font-size: 3rem;
+}
+.profile-text p{
+	margin: 3rem 0;
+}
+/*about more*/
+.about-more{
+	width: 100%;
+	height: auto;
+	background: url("../../img/banner1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	text-align: center;
+	object-fit: cover;
+	position: relative;
+}
+.about-more h3{
+	font-size: 4rem;
+	color: var(--white-primary);
+	text-transform: uppercase;
+}
+.about-more svg{
+	width: 7rem;
+	height: 7rem;
+	border-radius: 1.2rem;
+	border: 1px solid var(--white-primary);
+	color: var(--white-primary);
+	padding: 1rem;
+	margin-top: 3rem;
+}
+
+/*===services section===*/
+.service{
+	width: 100%;
+	height: auto;
+	background: var(--white-primary);
+}
+.service .service-item{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin-top: 2rem;
+	/*gap: 2rem;*/
+}
+.service-item .item{
+	width: 33%;
+	height: auto;
+	padding: 1rem;
+	margin: 1rem 0;
+	text-align: center;
+}
+.service-item .item svg{
+	width: 4rem;
+	height: 4rem;
+	color: var(--red-secondary);
+}
+.service-item .item h3{
+	font-size: 2.5rem;
+	color: var(--black);
+	font-weight: 600;
+	text-transform: capitalize;
+	margin: 1.5rem 0;
+}
+
+/*===skill section===*/
+.skill{
+	width: 100%;
+	height: auto;
+	background: var(--white3);
+}
+
+
+
+
+
+
+
+
+
+
+
