@@ -1,0 +1,27 @@
+{
+  "name": "php-with-laravel-framework",
+  "version": "1.0.0",
+  "description": "php with laravel project and tutorial ",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mohammad-Asif-Web/php-with-Laravel-Framework.git"
+  },
+  "keywords": [
+    "php",
+    "php-framework",
+    "laravel-framework",
+    "mvc-framework",
+    "php-with-laravel-framework",
+    "html-css-js-php-mysql-laravel"
+  ],
+  "author": "muhammad asif",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Mohammad-Asif-Web/php-with-Laravel-Framework/issues"
+  },
+  "homepage": "https://github.com/Mohammad-Asif-Web/php-with-Laravel-Framework#readme"
+}
