@@ -269,11 +269,143 @@ h1 span{
 	height: auto;
 	background: var(--white3);
 }
+.skill h3{
+	margin-top: 5rem;
+	font-size: 3rem;
+	font-weight: 200;
+	margin-bottom: 3rem;
+}
+.skill .skill-content{
+	display: flex;
+	justify-content: space-between;
+	gap: 2rem;
+}
+.skill-content .skill-text{
+	flex-basis: 49%;
+}
+.skill-content .skill-pro{
+	flex-basis: 49%;
+}
+.skill-pro h4{
+	font-size: 3rem;
+	margin-bottom: 3rem;
+	font-weight: 200;
+}
+.skill-pro .pro-item{
+	margin-top: 3rem;
+}
+.pro-item h5{
+	font-size: 2rem;
+	text-transform: capitalize;
+}
+.pro-item .pro-bar{
+	width: 100%;
+	height: 2rem;
+	background-color: var(--black);
+	border-radius: 2rem;
+	position: relative;
+	margin-top: 1rem;
+}
+.pro-bar::before{
+	content: "";
+	width: 60%;
+	height: 1rem;
+	background-color: var(--red-secondary);
+	border-radius: 2rem;
+	position: absolute;
+	top: 50%;
+	left: 1rem;
+	transform: translateY(-50%);
+}
+.pro-bar::after{
+	content: "60%";
+	font-size: 1.5rem;
+	color: var(--white-primary);
+	position: absolute;
+	top: 50%;
+	right: 1rem;
+	transform: translateY(-50%);
+}
 
+/* client */
+.client{
+	width: 100%;
+	height: auto;
+	background: url("../../img/work.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	display: flex;
+	justify-content: space-between;
+}
+.client .client-bar{
+	width: 24%;
+	text-align: center;
+}
+.client-bar svg{
+	color: var(--white-primary);
+	width: 2rem;
+	height: 2rem;
+	border: 1px solid var(--white-primary);
+	border-radius: 50%;
+	padding: 1rem;
+}
+.client-bar span{
+	display: block;
+	font-size: 3rem;
+	color: var(--white-primary);
+	padding: 1rem 0;
+}
+.client-bar h4{
+	font-size: 3rem;
+	color: var(--white-primary);
+}
 
-
-
-
+/* portfolio */
+.port{
+	width: 100%;
+	height: auto;
+	background-color: var(--white-primary);
+}
+.port ul{
+	display: flex;
+	justify-content: center;
+	margin: 4rem auto;
+}
+.port ul li{
+	padding: 2rem;
+}
+.port ul li a{
+	font-size: 2rem;
+	text-transform: capitalize;
+	cursor: pointer;
+	color: var(--black);
+}
+.port .port-items{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	gap: 2rem;
+}
+.port-items .port-item{
+	width: 32%;
+	position: relative;
+}
+.port-item::after{
+	content: "";
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: rgb(255, 0, 0, 0.3);
+	display: none;
+	transition: 1s all ease-in;
+}
+.port-item:hover.port-item::after{
+	display: block;
+	transition: 1s all ease-in;
+}
 
 
 
