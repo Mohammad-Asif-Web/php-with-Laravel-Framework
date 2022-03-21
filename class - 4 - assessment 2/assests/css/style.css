@@ -407,8 +407,123 @@ h1 span{
 	transition: 1s all ease-in;
 }
 
+/* team */
+.team{
+	width: 100%;
+	height: auto;
+	background: var(--white-e1);
+}
+.team .team-item{
+	margin-top: 5rem;
+	display: flex;
+	justify-content: space-between;
+	gap: 2rem;
+}
+.team .people{
+	position: relative;
+	flex-basis: 23%;
+}
+.people img{
+	width: 100%;
+	border-bottom: 1rem solid var(--red-secondary);
+}
+.people::after{
+	content: "";
+	width: 100%;
+	height: 100%;
+	background: rgb(255, 0, 0, 0.4);
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+}
+.people .people-icon{
+	width: 100%;
+	height: 10rem;
+	background: var(--red-secondary);
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	text-align: center;
+	color: var(--white-primary);
+	display: none;
+}
+.people-icon span{
+	font-size: 2rem;
+	text-transform: uppercase;
+	display: block;
+	margin: 1.5rem 0;
+}
+.people-icon svg{
+	width: 2rem;
+	height: 2rem;
+	padding: 0 1rem;
+}
+.people:hover.people::after,
+.people:hover.people .people-icon{
+	display: block;
+}
 
+/* mid-banner */
+.banner-2{
+	width: 100%;
+	height: auto;
+	background: url("../../img/banner2.jpg") no-repeat;
+	background-size: cover;
+	background-position: center center;
+	text-align: center;
+	color: var(--white-primary);
+}
+.banner-2 .logo{
+	width: 10rem;
+	height: 10rem;
+	border-radius: 50%;
+	margin: 0 auto;
+}
+.banner-2 h4{
+	font-size: 3rem;
+	padding: 2rem 0;
+}
+.banner-2 p{
+	color: var(--white-primary);
+}
 
-
+/* latest blog */
+.blog{
+	width: 100%;
+	height: auto;
+	background: var(--white-primary);
+}
+.blog .blog-desc{
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: space-between;
+	gap: 2rem;
+	margin-top: 5rem;
+}
+.blog-desc .blog-item{
+	flex-basis: 32%;
+	box-shadow: 0px 5px 10px 5px rgb(0, 0, 0, 0.3);
+}
+.blog-item .img-bar{
+	width: 100%;
+}
+.blog-item .blog-text{
+	padding: 2rem;
+}
+.blog-text h3{
+	font-size: 3rem;
+}
+.blog-text span{
+	display: block;
+	margin: 2rem 0;
+	font-size: 2rem;
+}
+.blog-text button{
+	background: var(--black);
+	padding: .5rem 1rem;
+	margin-top: 2rem;
+}
 
 
