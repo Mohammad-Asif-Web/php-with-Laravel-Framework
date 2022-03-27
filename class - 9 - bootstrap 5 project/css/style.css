@@ -23,7 +23,7 @@ nav{
 
 .banner .carousel-caption{
     position: absolute;
-    left: 10%;
+    left: 15%;
     top: 15%;
     text-align: left;
 }
@@ -46,7 +46,15 @@ nav{
     margin: 0 auto;
 }
 
-
+/*Work carousel*/
+.carousel-control-prev {
+    left: -8%;
+    transform: translateX(8%);
+}
+.carousel-control-next{
+    right: -8%;
+    transform: translateX(-8%);
+}
 
 
 
