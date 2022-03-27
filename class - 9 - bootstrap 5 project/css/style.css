@@ -9,6 +9,9 @@
 .heading{
     background: #f9f8f3;
 }
+.light-yellow{
+    color: #bea44d;;
+}
 .heading .row span{
     color: #bea44d;
     margin-right: 10px;
@@ -46,6 +49,15 @@ nav{
     margin: 0 auto;
 }
 
+/* service section */
+.service .service-item svg{
+    color: #bea44d;
+    background: #f9f8f3;
+    border: 1px solid #bea44d;
+    border-radius: 50%;
+    padding: 10px;
+}
+
 /*Work carousel*/
 .carousel-control-prev {
     left: -8%;
@@ -55,7 +67,45 @@ nav{
     right: -8%;
     transform: translateX(-8%);
 }
+.carousel-control-prev-icon,
+.carousel-control-next-icon{
+    background-color: #bea44d;
+}
 
+/* contact section */
+.contact input,
+.contact textarea{
+    background-color: #fffaef;
+}
+.contact textarea{
+    width: 100%;
+    height: 200px;
+    outline: 0;
+    resize: none;
+}
+.contact button{
+    background-color: #bea44d;
+    color: #fff;
+    padding: 5px 30px;
+    text-transform: capitalize;
+}
+
+/* link section */
+.link{
+    background-color: #f9edd5;
+}
+.link h2{
+    color: #bea44d;
+}
+
+/* footer  */
+footer{
+    background-color: #bea44d;
+    color: #fff;
+}
+footer svg{
+    margin: 0 10px;
+}
 
 
 
