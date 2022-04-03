@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(160, 216, 177);
+}
+h1{
+    text-align: center;
+    margin: 30px auto;
+    color: #fff;
+    font-size: 40px;
+    
+}
+div{
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+label{
+    text-transform: capitalize;
+    color: green;
+    font-size: 20px;
+    display: block;
+    margin-bottom: 10px;
+}
+input{
+    width: 17%;
+    padding: 10px;
+    outline: none;
+    border: 0;
+    border-radius: 3px;
+    font-size: 20px;
+}
+button{
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    text-transform: capitalize;
+    color: #fff;
+    cursor: pointer;
+    background: rgb(160, 216, 177);
+}
+button:active{
+    transform: scale(0.97);
+    color: rgb(160, 216, 177);
+    background-color: #fff;
+    border: 0;
+}
+
+
+
