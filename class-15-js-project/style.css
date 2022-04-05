@@ -4,34 +4,83 @@
     box-sizing: border-box;
 }
 body{
-    background-color: rgb(160, 216, 177);
+    background-image: url('https://images.unsplash.com/photo-1519681393784-d120267933ba?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1124&q=100');
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
 }
-h1{
+main{
+    width: 59%;
+    height: auto;
+    padding-bottom: 20px;
+    backdrop-filter: blur(7px) saturate(200%);
+    -webkit-backdrop-filter: blur(7px) saturate(200%);
+    background-color: rgba(255, 255, 255, 0.14);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
-    margin: 30px auto;
+}
+p{
+    text-align: center;
     color: #fff;
-    font-size: 40px;
-    
+    font-size: 100px;
+    writing-mode: vertical-rl;
+    position: absolute;
+    top: 0;
+    left: 250px;
+    height: 100vh;
 }
-div{
-    width: 100%;
-    text-align: center;
+
+.row{
+    width: 90%;
+    text-align: left;
     margin-top: 20px;
+    /* padding: 3%; */ 
+}
+.total{
+    width: 90%;
+    display: flex;
+    gap: 5px;
+    margin-top: 70px;
+}
+.row div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 220px;
+}
+.row div input{
+    width: 70px;
 }
 label{
     text-transform: capitalize;
-    color: green;
-    font-size: 20px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 25px;
     display: block;
     margin-bottom: 10px;
+    text-align: left;
 }
 input{
-    width: 17%;
+    width: 12%;
+    color: #fff;
+    background: rgb(255, 254, 254, 0.16);
     padding: 10px;
     outline: none;
-    border: 0;
+    border: 2px solid #fff;
     border-radius: 3px;
     font-size: 20px;
+    margin: 0 5px;
+}
+::placeholder{
+    color: #fff;
 }
 button{
     font-size: 20px;
@@ -41,7 +90,7 @@ button{
     text-transform: capitalize;
     color: #fff;
     cursor: pointer;
-    background: rgb(160, 216, 177);
+    background: transparent;
 }
 button:active{
     transform: scale(0.97);
