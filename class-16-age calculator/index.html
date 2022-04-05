@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <main>
+        <div class="head">
+            <h1>age calculator</h1>
+        </div>
+
+        <div class="wrapper">
+            <p>The calculation of age will be displayed in years, months and days</p>
+            <span class="key">key in your dates</span>
+
+            <small>date of birth</small>
+            <div>
+                <input type="text" placeholder="dd" id="my-date">
+                <input type="text" placeholder="mm" id="my-month">
+                <input type="text" placeholder="yy" id="my-year">
+            </div>
+
+            <small>age at date</small>
+            <div>
+                <input type="text" id="t-date">
+                <input type="text" id="t-month">
+                <input type="text" id="t-year">
+            </div>
+
+            
+            <button id="btn">calculate</button>
+        </div>
+
+        <div class="footer">
+            <p>your age</p>
+            <span id="age" class="age"></span>
+        </div>
+
+    </main>
+
+    <script src="./app.js"></script>
+</body>
+</html>
