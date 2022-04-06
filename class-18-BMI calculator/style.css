@@ -6,6 +6,8 @@
 :root{
     --main-color: rgb(255, 0, 106);
     --white: rgb(13, 17, 78);
+    --bodybg1: rgb(24, 39, 104);
+    --bodybg2: rgb(223, 17, 113);
 }
 body{
     height: 100vh;
@@ -14,10 +16,10 @@ body{
     align-items: center;
     justify-content: center;
     background: linear-gradient(to bottom, 
-     rgb(9, 9, 36) 0%,
-     rgb(9, 9, 36) 50%,
-     rgb(26, 5, 5) 50%,
-     rgb(26, 5, 5) 100%
+     var(--bodybg1) 0%,
+     var(--bodybg1) 50%,
+     var(--bodybg2) 50%,
+     var(--bodybg2) 100%
     )
 }
 button:active{
@@ -37,12 +39,14 @@ main{
     padding: 20px;
     width: 300px;
     color: #fff;
+    box-shadow: inset 0px 0px 10px 4px rgb(84, 153, 218);
+
 }
 .result h2{
     font-size: 40px;
     text-transform: uppercase;
     margin-top: 30px;
-    color: #fff;
+    color: var(--main-color);
 }
 .result span{
     display: block;
