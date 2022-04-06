@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI 3D Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+</head>
+<body>
+<main>
+    <section class="result">
+
+        <h2>your bmi</h2>
+        <span>000</span>
+
+        <p>you are obese</p>
+
+    </section>
+    
+    <section>
+        <div class="header pd">
+            <i class="fa-solid fa-bars"></i>
+            <p>bmi calculator</p>
+            <i class="fa-solid fa-moon"></i>
+        </div>
+        <div class="hero pd">
+            <div class="age">
+                <p>age (in year)</p>
+                <span id="inc">0</span>
+                <div class="inn">
+                    <button id="decBtn"><i class="fa-solid fa-minus"></i></button> 
+                    <button id="incBtn"><i class="fa-solid fa-plus"></i></button>
+                </div>
+            </div>
+            <div class="age weight">
+                <p>weight (kg)</p>
+                <span id="inc">0</span>
+                <div class="inn">
+                    <button id="decBtn"><i class="fa-solid fa-minus"></i></button> 
+                    <button id="incBtn"><i class="fa-solid fa-plus"></i></button>
+                </div>
+            </div>
+        </div>
+        <div class="height pd">
+            <h3>height</h3>
+            <p id="val">10</p>
+            <input class="range" id="range" type="range" max="300" min="20">
+            
+        </div>
+        <div class="gender pd">
+            <h3>gender</h3>
+            <div class="gender-btm">
+                <p>I'm</p>
+                <div class="btm">
+                    <span class="btm-sp">Female</span>
+                    <label class="switch">
+                        <input type="checkbox" checked>
+                        <span class="slider round"></span>
+                      </label>
+                    <span class="btm-sp">male</span>
+                </div>
+            </div>
+        </div>
+        <button id="calc">calculate</button>
+    </section>
+</main>
+
+
+    <!-- input range value -->
+    <!-- increment/Decrement value by button click -->
+    <!-- <span id="inc" style="display:block" >0</span>
+    <button id="decBtn">-</button> 
+    <button id="incBtn">+</button> -->
+    <!-- <input type="text" id="inc" value="0"></input> -->
+    <script src="./app.js"></script>
+</body>
+</html>
