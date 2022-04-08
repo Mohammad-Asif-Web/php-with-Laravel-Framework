@@ -32,15 +32,15 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
 
 ## Table of Contents
 
-| SL No. | Class No.      | Project Name      | Source Code |
-| ------ | ---------------| ------------------| ----------- |
-| 01     | Class - 3   | First PSD to html | [Link here](https://github.com/Mohammad-Asif-Web/php-with-Laravel-Framework/tree/master/class%20-%203%20-%20first%20psd%20to%20html)|
-| 02     | Class - 4   | Assessment 2 | [Link here](https://github.com/Mohammad-Asif-Web/php-with-Laravel-Framework/tree/master/class%20-%204%20-%20assessment%202)|
-| 03     | Class - 9   | Bootstrap 5 project | [Link here](https://github.com/Mohammad-Asif-Web/php-with-Laravel-Framework/tree/master/class%20-%209%20-%20bootstrap%205%20project)|
-| 04     | Class - 15   | Marksheet Project | [Link here](https://github.com/Mohammad-Asif-Web/php-with-Laravel-Framework/tree/master/class-15-marksheet%20project)|
-| 05     | Class - 16   | Age Calculator | [Link here](https://github.com/Mohammad-Asif-Web/php-with-Laravel-Framework/tree/master/class-16-age%20calculator)|
-| 06     | Class - 17   | BMI Simple Project | [Link here](https://github.com/Mohammad-Asif-Web/php-with-Laravel-Framework/tree/master/class-17-BMI%20project%20one)|
-| 07     | Class - 18   | BMI 3D Calculator | [Link here](https://github.com/Mohammad-Asif-Web/php-with-Laravel-Framework/tree/master/class-18-BMI%20calculator)|
+| SL No. | Class No.      | Project Name      | Source Code | Live Server |
+| ------ | ---------------| ------------------| ----------- | ----------- |
+| 01     | Class - 3   | First PSD to html | [See Code](https://github.com/Mohammad-Asif-Web/php-with-Laravel-Framework/tree/master/class%20-%203%20-%20first%20psd%20to%20html)| [See Live](https://mohammad-asif-web.github.io/php-with-Laravel-Framework/class%20-%203%20-%20first%20psd%20to%20html/index.html) |
+| 02     | Class - 4   | Assessment 2 | [See Code](https://github.com/Mohammad-Asif-Web/php-with-Laravel-Framework/tree/master/class%20-%204%20-%20assessment%202)| [See Live](https://mohammad-asif-web.github.io/php-with-Laravel-Framework/class%20-%204%20-%20assessment%202/index.html) |
+| 03     | Class - 9   | Bootstrap 5 project | [See Code](https://github.com/Mohammad-Asif-Web/php-with-Laravel-Framework/tree/master/class%20-%209%20-%20bootstrap%205%20project)| [See Live](https://mohammad-asif-web.github.io/php-with-Laravel-Framework/class%20-%209%20-%20bootstrap%205%20project/index.html) |
+| 04     | Class - 15   | Marksheet Project | [See Code](https://github.com/Mohammad-Asif-Web/php-with-Laravel-Framework/tree/master/class-15-marksheet%20project)| [See Live](https://mohammad-asif-web.github.io/php-with-Laravel-Framework/class-15-marksheet%20project/index.html) |
+| 05     | Class - 16   | Age Calculator | [See Code](https://github.com/Mohammad-Asif-Web/php-with-Laravel-Framework/tree/master/class-16-age%20calculator)| [See Live](https://mohammad-asif-web.github.io/php-with-Laravel-Framework/class-16-age%20calculator/index.html) |
+| 06     | Class - 17   | BMI Simple Project | [See Code](https://github.com/Mohammad-Asif-Web/php-with-Laravel-Framework/tree/master/class-17-BMI%20project%20one)| [See Live](https://mohammad-asif-web.github.io/php-with-Laravel-Framework/class-17-BMI%20project%20one/index.html) |
+| 07     | Class - 18   | BMI 3D Calculator | [See Code](https://github.com/Mohammad-Asif-Web/php-with-Laravel-Framework/tree/master/class-18-BMI%20calculator)| [See Live](https://mohammad-asif-web.github.io/php-with-Laravel-Framework/class-18-BMI%20calculator/index.html) |
 
 #
 
