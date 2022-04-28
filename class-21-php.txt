@@ -1,0 +1,28 @@
+1. use index.php file
+2. types of web
+3. print the php file -- echo "asif", print("asif");
+echo can do concatenation by "+" operator but print can't do.
+4. always use "$" sign when use variable;
+
+5. use $ when declare arguments in function
+
+6. we must use <br> tag into ''comma. "<br>"
+
+7. forEach()
+
+8. javascript = lenght, php = count
+
+9. we can get array by for loop, but we will get value by forEach()
+
+10. get, post , isset()
+
+
+
+
+
+
+
+
+
+
+

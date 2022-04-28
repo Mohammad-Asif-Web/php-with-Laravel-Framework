@@ -1,0 +1,16 @@
+<!-- range input system -->
+   <!-- setInterval -->
+   <!-- stopInterval -->
+   <!-- stop watch -->
+   <!-- object.keys -->
+   <!-- object.values -->
+   <!-- object.entries -->
+   <!-- jquery hide  -->
+   <!-- jquery show -->
+   <!-- jquery slideShow -->
+   <!-- jquery slideUp -->
+   <!-- jquery toggle -->
+   <!-- jquery slideToggle -->
+   <!-- jquery fadeIn -->
+   <!-- jquery fadeOut -->
+   <!-- jquery fadeToggle -->

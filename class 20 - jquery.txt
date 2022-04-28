@@ -1,0 +1,39 @@
+==============================================================
+|	1. Tini Slider Plugin-- src="github"
+|
+|	2. smooth card carousel plugin -- src="jqueryscript.net" 
+|
+|	3. mixItUp Plugin -- src="kunkalabs.com"
+|
+|	4. animated number counter plugin --src='jquerypost.com'
+|
+|	5. jquery text animation plugin with css -- src="jqueryscript.net"
+|
+|	6. water ripple animation -- src="codepen"
+|
+|	7. before after image viewer -- src="jqueryscript.net"
+
+	8. responsive touch enabled jquery image lightbox plugin -- src="jqueryscript.net"
+===============================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
