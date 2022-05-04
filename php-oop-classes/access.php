@@ -1,5 +1,6 @@
 <?php
 include 'something.php';
+include 'access_modifier.php';
 
 // object is accessed by -> sign
 // array is accessed by => sign
@@ -12,7 +13,14 @@ $sub = new Something;
 echo $sub -> sub(30, 10);
 echo '<br>';
 
+//access modifier
+$name = new Admin;
+$result =  $name -> inherit('Asif');
+echo $result;
+echo '<br>';
 
+
+// public arr
 
 
 

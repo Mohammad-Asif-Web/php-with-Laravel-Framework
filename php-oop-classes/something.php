@@ -1,5 +1,7 @@
 <?php
 
+// Always return the value from function in object and its a good practice
+
 class Something{
     function add($num1, $num2){
         $res = $num1 + $num2;
@@ -11,6 +13,7 @@ class Something{
         return "your substration is ${res}";
     }
 }
+
 
 
 
