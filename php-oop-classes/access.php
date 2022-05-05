@@ -15,16 +15,18 @@ echo '<br>';
 
 //access modifier
 $name = new Admin;
-$result =  $name -> inherit('Asif');
+$result =  $name -> inherit('Asi');
 echo $result;
 echo '<br>';
 
 
-// public arr
+// calling protected class modifier
+$many = new user;
+echo $many -> many();
+echo '<br>';
 
-
-
-
+echo $many -> laravel();
+echo $many -> boot();
 
 
 
