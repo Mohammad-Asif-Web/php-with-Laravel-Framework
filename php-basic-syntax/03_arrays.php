@@ -1,4 +1,4 @@
-<?php
+h<?php
 
 $arr = [1, 2, 3, 4];
 $fruits = array('apple', 'orange', 'mango', 1, 2, false);
@@ -58,6 +58,48 @@ echo'<br>';
 
 // array converts to json
 var_dump(json_encode($people));
+
+echo '<br><br><h1 style="text-align:center;color:red">Multidimensional Array with loop Result</h1>';
+
+// Multidimensional array with forEach loop
+$emp = [
+    [1, 'Asif', 'Engineer', 40000],
+    [2, 'Kawser', 'Designer', 35000],
+    [3, 'Riaz', 'Lecturere', 24000],
+    [4, 'Limon', 'Hr.Admin', 2200]
+];
+
+echo "<table border='1' cellpadding='5px'>";
+echo '<tr>
+         <th>Sl.</th>
+        <th>Name</th>
+        <th>Designation</th> 
+        <th>Salary</th>
+    </tr>';
+foreach($emp as $row){
+
+    echo '<tr>';
+    foreach($row as $col){
+        echo "<td>$col</td>";
+    }
+    echo '</tr>';
+}
+echo '</table>';
+
+// Associative array in foreach loop
+$age = [
+    "asif" => 28,
+    "Limon" => 27,
+    "Biplob" => 35
+];
+
+echo "<ul>";
+foreach($age as $key => $value){
+    echo "<li>$key : $value</li>";
+}
+echo "</ul>";
+
+
 
 
 
